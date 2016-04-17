@@ -1,0 +1,13 @@
+﻿{
+  "AppConfiguration": {
+    "Redis": {
+      "Server": "192.168.99.100",
+      "Port": "600",
+      "ListKey": "AppLogging"
+    },
+    "LogstashUdp": {
+      "Server": "172.168.72.11",
+      "Port": "5000"
+    }    
+  }
+}
