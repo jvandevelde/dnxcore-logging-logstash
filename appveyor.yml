@@ -4,6 +4,8 @@ install:
 - dnvm install 1.0.0-rc1-update2 -r coreclr
 - dnvm install 1.0.0-rc1-update2 -r clr
 - dnu restore
+cache:
+  C:\Users\appveyor\.dnx\
 build:
   verbosity: minimal
 deploy:
