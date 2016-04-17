@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>JV.DnxCore.Extensions.Logging.Logstash</id>
+    <version>$version$</version>
+    <authors>Jules Van de Velde</authors>
+    <description>A Logstash logging extension for .NET Core applications with UDP and Redis transports</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jvandevelde/dnxcore-logging-logstash</projectUrl>
+  </metadata>
+</package>
