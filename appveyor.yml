@@ -9,8 +9,7 @@ cache:
 build:
   verbosity: minimal
 artifacts:
-  - path: **\*.nupkg
-    name: NuGet Package
+  - path: '**\*.nupkg' # find all NuGet packages recursively
 deploy:
   provider: NuGet
   api_key:
