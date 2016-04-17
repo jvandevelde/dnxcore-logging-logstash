@@ -1,8 +1,8 @@
-﻿using logstash.logging.Logging.Logstash;
+﻿using JV.DotNetCore.Logging.Logstash.Transports;
 using Microsoft.Extensions.Logging;
 using System;
 
-namespace logstash.logging.Logging
+namespace JV.DotNetCore.Logging.Logstash
 {
     public class LogstashLogger : ILogger
     {
@@ -22,7 +22,7 @@ namespace logstash.logging.Logging
 
         public IDisposable BeginScopeImpl(object state)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public bool IsEnabled(LogLevel logLevel)

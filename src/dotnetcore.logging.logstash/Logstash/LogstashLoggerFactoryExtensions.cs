@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
-namespace logstash.logging.Logging.Logstash
+namespace JV.DotNetCore.Logging.Logstash
 {
     public static class LogstashLoggerFactoryExtensions
     {

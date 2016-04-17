@@ -4,7 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-namespace dotnetcore.logging.logstash.Transports
+namespace JV.DotNetCore.Logging.Logstash.Transports
 {
     public class UdpTransport
     {

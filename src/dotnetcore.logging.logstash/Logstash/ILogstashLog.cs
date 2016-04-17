@@ -1,5 +1,5 @@
-﻿namespace logstash.logging.Logging
-{
+﻿namespace JV.DotNetCore.Logging.Logstash
+{ 
     public interface ILogstashLog
     {
         int MaxMessageSize { get; }

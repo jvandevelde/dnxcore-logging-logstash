@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using StackExchange.Redis;
 
-namespace logstash.logging.Logging
+namespace JV.DotNetCore.Logging.Logstash.Transports
 {
     /// <summary>
     /// A transport to send data to Redis

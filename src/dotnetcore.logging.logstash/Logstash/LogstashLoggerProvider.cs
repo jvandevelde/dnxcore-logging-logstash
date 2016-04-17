@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace logstash.logging.Logging
+namespace JV.DotNetCore.Logging.Logstash
 {
     /// <summary>
     /// The provider for the <see cref="EventLogLogger"/>.

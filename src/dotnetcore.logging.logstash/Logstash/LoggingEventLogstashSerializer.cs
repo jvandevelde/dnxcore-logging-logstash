@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 
-namespace logstash.logging.Logging.Logstash
+namespace JV.DotNetCore.Logging.Logstash
 {
     /// <summary>
     /// Takes data from the DNX logging infrastructure and converts it into a JSON document
