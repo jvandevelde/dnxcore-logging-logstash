@@ -13,4 +13,4 @@ deploy:
   api_key:
     secure: kDzGILb9iqekj/+T9xB29ODeMJlXdWpZnyYEIZ9dRvzbkL1azmfB0MxXYXnTFwRx
   skip_symbols: false
-  artifact: /.*\.nupkg/
+  artifact: C:\projects\dnxcore-logging-logstash\artifacts\bin\JV.DotNetCore.Extensions.Logging.Logstash\Debug\JV.DotNetCore.Extensions.Logging.Logstash.1.0.0.nupkg
