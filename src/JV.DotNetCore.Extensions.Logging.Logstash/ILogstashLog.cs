@@ -1,4 +1,4 @@
-﻿namespace JV.DotNetCore.Logging.Logstash
+﻿namespace JV.DotNetCore.Extensions.Logging.Logstash
 { 
     public interface ILogstashLog
     {

@@ -4,7 +4,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 
-namespace JV.DotNetCore.Logging.Logstash
+namespace JV.DotNetCore.Extensions.Logging.Logstash
 {
     /// <summary>
     /// Takes data from the DNX logging infrastructure and converts it into a JSON document
@@ -35,7 +35,7 @@ namespace JV.DotNetCore.Logging.Logstash
             }
         }
 
-        public string GetFormattedMessage(LogLevel logLevel, int eventId, object state, Exception exception, Func<object, Exception, string> formatter)
+        public string GetFormattedMessage(LogLevel logLevel, int eventId, object state, string scope, Exception exception, Func<object, Exception, string> formatter)
         {
             _exceptionInformation = new SortedDictionary<string, string>();
 
@@ -47,6 +47,7 @@ namespace JV.DotNetCore.Logging.Logstash
             AddEventData("level", logLevel.ToString());
             AddEventData("event_id", eventId.ToString());
             AddEventData("message", state.ToString());
+            AddEventData("scope", scope);
 
             BuildExceptionInformation(exception);
 

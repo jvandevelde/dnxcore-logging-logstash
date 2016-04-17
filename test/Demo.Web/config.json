@@ -6,8 +6,8 @@
       "ListKey": "AppLogging"
     },
     "LogstashUdp": {
-      "Server": "172.28.128.20",
+      "Server": "172.28.128.10",
       "Port": "5000"
-    }    
+    }
   }
 }

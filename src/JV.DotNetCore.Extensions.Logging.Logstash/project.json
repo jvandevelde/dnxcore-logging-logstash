@@ -1,6 +1,6 @@
 ﻿{
   "version": "1.0.0-*",
-  "description": "dotnetcore.logging.logstash Class Library",
+  "description": "JV.DotNetCore.Extensions.Logging.Logstash Class Library",
   "authors": [ "Jules Van de Velde" ],
   "tags": [ "logging", "logstash", "redis" ],
   "projectUrl": "",
