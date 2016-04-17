@@ -1,9 +1,8 @@
 version: 1.0.{build}
 os: Visual Studio 2015
 install:
-- cmd: >-
-    set PATH=C:\Program Files (x86)\MSBuild\14.0\Bin;%PATH%
-    dnvm upgrade
+- dnvm upgrade -r clr
+- dnu restore
 build:
   verbosity: minimal
 deploy:
